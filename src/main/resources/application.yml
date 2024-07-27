@@ -6,7 +6,7 @@ spring:
   application:
     name: website
   datasource:
-    url: jdbc:postgresql://10.0.141.54:5432/website_db
+    url: jdbc:postgresql://10.130.15.175:5432/website_db?useSSL=false
     username: postgres
     password:
   jpa:
